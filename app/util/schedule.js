@@ -380,11 +380,16 @@ module.exports = [{
             {
                 start: "16:45",
                 col1: {
-                    rowspan: 7,
+                    rowspan: 6,
                     colspan: 1,
-                    title: "Debate: Educação 4.0",
-                    subtitle: "Participantes por anunciar",
-                    time: "16:45 - 18:30",
+                    title: "<a href='https://youtu.be/gme0zh6e0yU'>Debate: Educação 4.0</a>",
+                    subtitle: "<a href=\"/speakers/23\">Filipe Araújo</a><br/>" + 
+                        "<a href=\"/speakers/22\">Raúl Vidal</a><br/>" + 
+                        "<a href=\"/speakers/25\">João Carlos Sousa</a><br/>" + 
+                        "<a href=\"/speakers/24\">José Pedro Nunes</a><br/>" +  
+                        "<a href=\"/speakers/26\">Carlos Alberto Silva</a><br/>" + 
+                        "Sérgio Sousa (Moderador)<br/>",
+                    time: "16:45 - 18:15",
                     location: "Auditório FEUP",
                     lang: "pt",
                     show: true
@@ -393,9 +398,10 @@ module.exports = [{
                     rowspan: 7,
                     colspan: 1,
                     title: "Alexandra Pinto e Boudhayan Mukherjee",
+                    class: "quick-fixer",
                     subtitle: "Next Gen Experiences Through Connected Technologies",
                     time: "16:45 - 18:30",
-                    location: "Sala a anunciar",
+                    location: "Sala B116",
                     lang: "pt",
                     url: "/talks/20",
                     show: true
@@ -405,7 +411,8 @@ module.exports = [{
                     colspan: 2,
                     title: "Daniel Silva",
                     subtitle: "Programação funcional com Elixir e Phoenix",
-                    time: "16:45 - 18:30",
+                    class: "quick-fixer",
+                    time: "16:45 - 18:15",
                     location: "Sala B120",
                     show: true,
                     lang: "pt",
@@ -449,13 +456,24 @@ module.exports = [{
             },
             {
                 start: "18:15",
+                col1: {
+                    rowspan: 1,
+                    colspan: 1,
+                    title: "Sofia Couto da Rocha",
+                    subtitle: "A ficção científica de ontem",
+                    url: "/speakers/27",
+                    time: "18:15 - 18:45",
+                    location: "Auditório FEUP",
+                    lang: "pt",
+                    show: true
+                },
                 col2: {
                     rowspan: 1,
                     colspan: 1,
                 },
             },
             {
-                start: "18:30",
+                start: "18:45",
                 break: true,
                 title: "Deslocamento",
                 location: "FEUP → Campo Alegre",
@@ -485,11 +503,13 @@ module.exports = [{
                 start: "21:00",
                 col1: {
                     title: "Rally das Tascas",
+                    url: "/talks/22",
                     rowspan: 2,
                     colspan: 2,
                 },
                 col2: {
                     title: "Peddy Paper",
+                    url: "/talks/24",
                     rowspan: 2,
                     colspan: 2,
                 },
@@ -735,14 +755,13 @@ module.exports = [{
                     rowspan: 8,
                     colspan: 1,
                     class: "day-2-fixer",
-                    title: "Por anunciar",
-                    //title: "Luís Grangeia",
-                    //subtitle: "Cibersegurança S21sec",
+                    title: "Luís Grangeia",
+                    subtitle: "Engenharia Reversa de Aplicações Android",
                     time: "14:00 - 16:00",
                     location: "Sala B107",
                     show: true,
-                    //lang: "pt",
-                    //url: "/talks/11"
+                    lang: "pt",
+                    url: "/talks/11"
                 }
             },
             {
@@ -804,7 +823,7 @@ module.exports = [{
                     rowspan: 3,
                     colspan: 1,
                     time: "16:45 - 17:30",
-                    title: "Egas Bastos",
+                    title: "<a href=\"https://youtu.be/m4kKl6wNQUE\">Egas Bastos</a>",
                     subtitle: "10 Pro Tips Para Ser um Game Developer de Sucesso",
                     location: "Auditório FEUP",
                     show: true,
@@ -814,9 +833,10 @@ module.exports = [{
                     rowspan: 6,
                     colspan: 1,
                     time: "16:45 - 18:15",
-                    title: "Karaoke Presentation",
-                    location: "Sala por definir",
+                    title: "Presentation Karaoke",
+                    location: "Sala B120",
                     show: true,
+                    url: "/talks/21",
                     lang: "pt"
                 },
                 col3: {
@@ -838,7 +858,7 @@ module.exports = [{
                     time: "16:45 - 18:30",
                     title: "Pedro Janeiro",
                     subtitle: "Introdução ao Docker",
-                    location: "Sala B120",
+                    location: "Sala B107",
                     show: true,
                     lang: "pt",
                     url: "/talks/15"
@@ -876,15 +896,16 @@ module.exports = [{
                     rowspan: 1,
                     colspan: 1,
                     time: "18:15 - 18:30",
-                    title: "Karaoke Presentation Final",
+                    title: "Presentation Karaoke Final",
                     location: "Auditório FEUP",
                     show: true,
+                    url: "/talks/21",
                     lang: "pt"
                 },
             },
             {
                 special: true,
-                start: "18:45",
+                start: "18:30",
                 col1: {
                     title: "<a href=\"/talks/1\">Sessão de Cocktails</a> | Sala I-105",
                     rowspan: 2,
@@ -892,7 +913,8 @@ module.exports = [{
                     url: "/talks/1",
                 },
                 col2: {
-                    title: "Quiz by Whitesmith",
+                    title: "Quiz by Whitesmith | Auditório FEUP",
+                    //url: "/talks/23",
                     rowspan: 2,
                     colspan: 2,
                 },
@@ -909,7 +931,6 @@ module.exports = [{
                     rowspan: 4,
                     colspan: 2,
                     desc: "DJ Tape | 23:00 - 1:00<br/>DJ's 2Fellas | 1:00 - 3:00",
-                    url: "/talks/1",
                 },
                 col2: {
                     title: "<a href=\"/talks/2\">Jantar Empresarial</a>",

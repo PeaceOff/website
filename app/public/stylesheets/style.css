@@ -97,6 +97,14 @@ div.full-line {
     
 }
 
+.candidaturas-container {
+    color: white;
+}
+
+#info-candidatura {
+    font-size: 150%;
+}
+
 #speaker-button button {
     display: block;
     width: fit-content;
@@ -111,6 +119,25 @@ div.full-line {
 #speaker-button button:hover {
     border-color: var(--main-third-highlight-blue);
     color: var(--main-third-highlight-blue);
+}
+
+.video-row .about-talk-title {
+    margin-left: 30px;
+}
+
+#talk-video {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+}
+
+@media (max-width: 767px) {
+    /* Este é o ponto de viragem para mobile-view*/
+    #talk-video {
+        height: auto;
+        width: auto;
+    }   
 }
 
 .page-content-container .subscribe-area-container,
@@ -1016,6 +1043,10 @@ img.signup-section-img {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.sponsor.bronze div.Shiftforward {
+    min-width: 90px;
 }
 
 @media (min-width: 490px) {

@@ -144,7 +144,7 @@ module.exports = {
       },
       {
         name: "Inova Ria",
-        image: "inova-ria.jpg",
+        image: "inova-altice.PNG",
         href: "http://www.inova-ria.pt/",
         show: true
       },
@@ -201,6 +201,12 @@ module.exports = {
         name: "i2S",
         image: "i2S.png",
         href: "http://www.i2s.pt/pt-pt/",
+        show: true
+      },
+      {
+        name: "Accenture",
+        image: "accenture.PNG",
+        href: "https://www.accenture.com/pt-pt/new-applied-now",
         show: true
       }
     ],
@@ -291,6 +297,12 @@ module.exports = {
       image: "eul.png",
       href: "http://www.euniversityleague.com/",
       show: true
+    },
+    {
+      name: "RedBull",
+      image: "redbull.png",
+      href: "https://www.redbull.com/pt-pt/",
+      show: true
     }
   ],
   workshops: [
@@ -334,7 +346,8 @@ module.exports = {
       talkSummary: "",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/CCNkWuVvW2w",
     },
     {
       id: 15,
@@ -351,7 +364,8 @@ module.exports = {
       talkSummary: "\"A Internet foi criada como um projeto da CIA e continua a ser desenvolvida como tal\", uma citação infame (e longe de ser correta) do presidente russo, Putin, de abril de 2014, pode descrever de melhor forma a atitude do governo russo contemporâneo em relação à Net. Sendo geralmente céticas da Net, as autoridades russas nunca confiaram no meio. Mas, após os protestos pós-eleição de 2011-2012 e as revelações de Snowden, o Kremlin abriu uma nova frente contra ela, implementando um plano coordenado para exercer tanto controlo online como atualmente tem offline. Alexey Sidorenko, observador de longo prazo deste processo, compartilhará uma história ainda em andamento de The Closure - um lento processo de privação de liberdades para se comunicar e expressar online na Rússia.",
       show: true,
       speaker: true,
-      lang: "en"
+      lang: "en",
+      video: "https://youtube.com/embed/DTR0d8hBSBM",
     },
     {
       id: 14,
@@ -368,7 +382,8 @@ module.exports = {
       talkSummary: "In his talk, Wolfgang will highlight different areas of his journey in the wonderful world of robotics and touch upon challenges and frontiers in the field. In particular, he will highlight recent research successes and open challenges along with implications of an applied field.",
       show: true,
       speaker: true,
-      lang: "en"
+      lang: "en",
+      video: "https://youtube.com/embed/dA-dz-NzL3M",
     },
     {
       id: 16,
@@ -385,7 +400,8 @@ module.exports = {
       talkSummary: "O GitLab iniciou-se como um projeto open source. Com o passar dos ano, cresceu e tornou-se num empresa constituída por cerca de 250 pessoas. Em vez de abrir um escritório em São Francisco, o GitLab fez tudo remotamente: 0 escritórios. Além disso, todo o trabalho desenvolvido pelo GitLab é aberto. Nesta talk, Job examinará como o GitLab gere o seu crescimento como empresa, onde todos podem trabalhar com os seus pijamas e onde todo o trabalho é público.",
       show: true,
       speaker: true,
-      lang: "en"
+      lang: "en",
+      video: "https://youtube.com/embed/HRP9cAox8po",
     },
     {
       id: 18,
@@ -403,24 +419,40 @@ module.exports = {
       talkSummary: "",
       show: true,
       speaker: true,
+      lang: "pt",
+      video: "https://youtube.com/embed/GfvJvsIl8BQ",
     },
     {
-      id: 0,
-      name: "André Silva",
-      shortBio: "Parity Technologies",
-      company: "Parity Technologies",
-      role: "Core Developer",
-      fullBio: "Engenheiro de Software formado em 2011 pela Faculdade de Engenharia da Universidade do Porto. Nos últimos anos trabalhou na <a href='https://shiftforward.eu'>ShiftForward</a> onde desenvolveu tecnologia para online marketing. Atualmente é colaborador do projecto <a href= 'https://github.com/paritytech/parity'>parity</a>, uma das implementações do Ethereum.",
-      image: "andre_silva.jpg",
-      linkedin: "https://www.linkedin.com/in/andrerfosilva/",
-      github: "https://github.com/andresilva",
+      id: 22,
+      name: "Raul Vidal",
+      shortBio: "FEUP",
+      company: "FEUP",
+      role: "Professor Emérito",
+      fullBio: "<p>Licenciado em Engenharia Eletrotécnica pela FEUP em 1972, Raul Moreira Vidal prosseguiu os estudos em Inglaterra, onde concluiu o Mestrado (1974) e mais tarde o Doutoramento (1978), ambos na UMIST, em Manchester. Os seus interesses profissionais iniciaram-se na área de sistemas digitais e computadores, direcionando-se depois para a área da qualidade de software, melhoria de processos de software, fatores humanos em engenharia de software, empreendedorismo e inovação, sendo nestas áreas que focou as suas atividades de I&D, desenvolvidas na FEUP e no INESC TEC.</p><p>Raul Vidal teve uma passagem relevante pela Faculdade de Ciências e Tecnologia da Universidade de Coimbra (1972-1977) e também pela Universidade do Minho (1978-1982). Iniciou a sua carreira na FEUP em 1982 e, em 1986, coordenou e foi um dos principais dinamizadores do processo de criação do Mestrado em Engenharia Eletrotécnica e Computadores (MEEC) e, em 1994, coautor do processo de criação da Licenciatura em Engenharia Informática e Computação (LEIC), posteriormente transformado em Mestrado Integrado em Engenharia Informática e Computação (MIEIC), que dirigiu, de 2001 a 2008.</p><p>Foi também dinamizador e coordenador do processo de criação de outros cursos superiores de informática e de ações de formação contínua e profissional.</p><p>À data da jubilação, detinha o título de Professor Associado, integrado na sub-área científica de Engenharia de Software e o cargo de Diretor do DEI. Membro eleito do Conselho Geral da Universidade do Porto desde julho de 2013, foi também, desde julho de 2014, membro do Conselho Científico da Faculdade de Engenharia do Porto e é, desde 2016, Coordenador das Relações com os Alumni FEUP.</p><p>Membro do Grupo de I&D de Engenharia de Software da FEUP, que fundou e liderou até 2008, Raul Vidal tem participado em vários projetos de I&D, nacionais e internacionais. Em 2009 foi cofundador da Strongstep, spin-off da Faculdade de Engenharia na área da melhoria de processos e da qualidade de software. Integra também, desde fevereiro de 2015, o Serviço de Apoio a Parcerias Empresariais (SAPE) do INESC TEC como Assessor Sénior.</p><p>É membro Sénior do IEEE, Membro do Software Engineering Institute (SEI) da Universidade de Carnegie-Mellon, e Membro Sénior da Ordem dos Engenheiros (Colégio de Engenharia Informática).</p><p>Destaque ainda para vários reconhecimentos obtidos ao longo do seu percurso, nomeadamente o  ‘IEEE Third Millenium Award’ (2000) e a distinção ‘Personalidade do Ano em Engenharia de Software’ (2016), pelo grande impulso dado ao setor das TIC e mesmo à economia nacional.</p>",
+      image: "raul_vidal.jpg",
       faqs: [],
-      talkDate: "Sábado 24/03 | 14:00 - 14:45 | Auditório FEUP",
-      talkTitle: "Blockchain",
-      talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
+      talkTitle: "Educação 4.0",
+      talkSummary: "",
+      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
+      lang: 'pt',
       show: true,
       speaker: true,
-      lang: "pt"
+    },
+    {
+      id: 23,
+      name: "Filipe Araújo",
+      shortBio: "CM Porto",
+      company: "CM Porto",
+      role: "Vice-presidente",
+      fullBio: "<p>Vereador do Pelouro da Inovação e Ambiente na Câmara Municipal do Porto (mandato 2013-2017).</p><p>Presidente do Conselho de Administração da Empresa Municipal de Ambiente do Porto.</p><p></p><p>Presidente do Conselho de Administração da Agência de Energia do Porto.</p><p>Presidente do Conselho de Administração da Associação Porto Digital.</p><p>Membro do Conselho de Administração da LIPOR.</p><p>Vice-Presidente do Fórum do Ambiente da rede Eurocities.</p><p>Membro do Conselho Consultivo da Associação Portuguesa para o Desenvolvimento das Comunicações.</p><p>Membro do Conselho Consultivo do MIL (Media Innovation Labs) da Universidade do Porto.</p><p>Licenciado em Engenharia Eletrotécnica pela Faculdade de Engenharia da Universidade do Porto.</p><p>M.Sc. em Telecomunicações pela UMIST - University of Manchester Institute of Science and Technology, Manchester, Reino Unido.</p><p>Foi Professor convidado da Faculdade de Ciências da Universidade do Porto, entre 2007 e 2011.</p><p>Foi deputado da Assembleia Municipal do Porto entre 2005 e 2009.</p><p>Quadro superior de uma empresa de telecomunicações.</p><p>Membro do Conselho de Administração da Fundação da Juventude (2007-2013).</p>",
+      image: "filipe_araujo.jpg",
+      faqs: [],
+      talkTitle: "Educação 4.0",
+      talkSummary: "",
+      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
+      lang: 'pt',
+      show: true,
+      speaker: true,
     },
     {
       id: 2,
@@ -440,17 +472,23 @@ module.exports = {
       lang: "pt"
     },
     {
-      id: 22,
-      name: "Raul Vidal",
-      fullBio: "<p>Licenciado em Engenharia Eletrotécnica pela FEUP em 1972, Raul Moreira Vidal prosseguiu os estudos em Inglaterra, onde concluiu o Mestrado (1974) e mais tarde o Doutoramento (1978), ambos na UMIST, em Manchester. Os seus interesses profissionais iniciaram-se na área de sistemas digitais e computadores, direcionando-se depois para a área da qualidade de software, melhoria de processos de software, fatores humanos em engenharia de software, empreendedorismo e inovação, sendo nestas áreas que focou as suas atividades de I&D, desenvolvidas na FEUP e no INESC TEC.</p><p>Raul Vidal teve uma passagem relevante pela Faculdade de Ciências e Tecnologia da Universidade de Coimbra (1972-1977) e também pela Universidade do Minho (1978-1982). Iniciou a sua carreira na FEUP em 1982 e, em 1986, coordenou e foi um dos principais dinamizadores do processo de criação do Mestrado em Engenharia Eletrotécnica e Computadores (MEEC) e, em 1994, coautor do processo de criação da Licenciatura em Engenharia Informática e Computação (LEIC), posteriormente transformado em Mestrado Integrado em Engenharia Informática e Computação (MIEIC), que dirigiu, de 2001 a 2008.</p><p>Foi também dinamizador e coordenador do processo de criação de outros cursos superiores de informática e de ações de formação contínua e profissional.</p><p>À data da jubilação, detinha o título de Professor Associado, integrado na sub-área científica de Engenharia de Software e o cargo de Diretor do DEI. Membro eleito do Conselho Geral da Universidade do Porto desde julho de 2013, foi também, desde julho de 2014, membro do Conselho Científico da Faculdade de Engenharia do Porto e é, desde 2016, Coordenador das Relações com os Alumni FEUP.</p><p>Membro do Grupo de I&D de Engenharia de Software da FEUP, que fundou e liderou até 2008, Raul Vidal tem participado em vários projetos de I&D, nacionais e internacionais. Em 2009 foi cofundador da Strongstep, spin-off da Faculdade de Engenharia na área da melhoria de processos e da qualidade de software. Integra também, desde fevereiro de 2015, o Serviço de Apoio a Parcerias Empresariais (SAPE) do INESC TEC como Assessor Sénior.</p><p>É membro Sénior do IEEE, Membro do Software Engineering Institute (SEI) da Universidade de Carnegie-Mellon, e Membro Sénior da Ordem dos Engenheiros (Colégio de Engenharia Informática).</p><p>Destaque ainda para vários reconhecimentos obtidos ao longo do seu percurso, nomeadamente o  ‘IEEE Third Millenium Award’ (2000) e a distinção ‘Personalidade do Ano em Engenharia de Software’ (2016), pelo grande impulso dado ao setor das TIC e mesmo à economia nacional.</p>",
-      image: "raul_vidal.jpg",
+      id: 0,
+      name: "André Silva",
+      shortBio: "Parity Technologies",
+      company: "Parity Technologies",
+      role: "Core Developer",
+      fullBio: "Engenheiro de Software formado em 2011 pela Faculdade de Engenharia da Universidade do Porto. Nos últimos anos trabalhou na <a href='https://shiftforward.eu'>ShiftForward</a> onde desenvolveu tecnologia para online marketing. Atualmente é colaborador do projecto <a href= 'https://github.com/paritytech/parity'>parity</a>, uma das implementações do Ethereum.",
+      image: "andre_silva.jpg",
+      linkedin: "https://www.linkedin.com/in/andrerfosilva/",
+      github: "https://github.com/andresilva",
       faqs: [],
-      talkTitle: "Educação 4.0",
-      talkSummary: "",
-      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
-      lang: 'pt',
+      talkDate: "Sábado 24/03 | 14:00 - 14:45 | Auditório FEUP",
+      talkTitle: "Blockchain",
+      talkSummary: "A palestra será uma introdução a tecnologia blockchain, onde se irá descrever como funciona um sistema como Bitcoin e o que assegura a segurança do mesmo. Durante a palestra iremos começar por descrever o problema que estamos a tentar resolver (distributed ledger) e iterativamente construir uma solução que no final deverá ser semelhante a Bitcoin (não irá ser 100% semelhante para evitar descrever detalhes de implementação). Por fim irei também fazer uma pequena menção a outros sistema como o Ethereum.",
       show: true,
       speaker: true,
+      lang: "pt",
+      video: "https://youtube.com/embed/JVeC4QvcRPQ",
     },
     {
       id: 3,
@@ -465,6 +503,7 @@ module.exports = {
       instagram: "https://www.instagram.com/henriqueferrolho/",
       github: "https://github.com/ferrolho",
       website: "https://ferrolho.github.io/",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-introducao-a-robotica-com-threejs-enei-2018-44221544831&sa=D&ust=1521564907146000&usg=AFQjCNE5pgXauX34pMcEYtPYRNl01xk9kA",
       faqs: [],
       talkDate: "Domingo 25/03 | 14:00 - 16:00",
       talkTitle: "Introdução à Robótica com Three.js",
@@ -522,6 +561,22 @@ module.exports = {
       lang: "pt"
     },
     {
+      id: 24,
+      name: "José Pedro Nunes",
+      shortBio: "Conselho Geral da UP",
+      company: "Conselho Geral da Universidade do Porto",
+      role: "Representante dos estudantes",
+      fullBio: "<p>José Pedro Nunes nasceu em Amarante no ano de 1992. Adquiriu distinção de mérito no final do 2º ciclo e do 3º ciclo no externato de Vila-Meã.</p><p>Ingressou em 2010 na Faculdade de Engenharia da Universidade do Porto no Mestrado Integrado em Engenharia Informática e Computação, onde em 2013 se transferiu para o Mestrado Integrado em Engenharia Mecânica neste momento a frequentar.</p><p>Ao longo destes anos no Ensino Superior foi de 2011 a 2013 vogal da Direção da Associação de Estudantes da Faculdade de Engenharia da Universidade do Porto(AEFEUP). Em 2013 é líder do Departamento Recreativo da AEFEUP. Em 2014 exerce o cargo de Vice-Presidente da Direção da AEFEUP. Em 2015 é eleito Presidente da Direção da AEFEUP, nomeado para o Conselho Coordenador do Modelo Educativo da Universidade do Porto, é membro do Senado da Universidade do Porto, é convidado assíduo do Conselho Pedagógico da Faculdade de Engenharia da Universidade do Porto, é convidado para ingressar no Comissariado Desportivo da Faculdade de Engenharia da Universidade do Porto (atualmente).</p><p>Em 2016 é eleito como representante dos estudantes no Conselho Geral da Universidade do Porto (atualmente).</p>",
+      image: "josepedronunes.jpg",
+      faqs: [],
+      talkTitle: "Educação 4.0",
+      talkSummary: "",
+      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
+      lang: 'pt',
+      show: true,
+      speaker: true,
+    },
+    {
       id: 6,
       name: "Fábio Barbosa",
       shortBio: "Farfetch",
@@ -554,6 +609,23 @@ module.exports = {
       lang: "pt"
     },
     {
+      id: 26,
+      name: "Carlos Alberto Silva",
+      shortBio: "SONAE IM",
+      company: "SONAE IM",
+      role: "Executive Board Member",
+      fullBio: "<p>Head of  investment in Telecom technology and Board member of Sonae IM companies.</p><p>+20 years of experience in the Tech, Media & Telecom in strategy and M&A.</p><p>Started his career as researcher at INESC and assistant teacher at the University of Porto.</p><p>MsC in Electrical and Computer Engineering degree from the University of Porto. Executive MBA from Porto Business School</p>",
+      image: "carlosalbertosilva.jpg",
+      faqs: [],
+      talkTitle: "Educação 4.0",
+      talkSummary: "",
+      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
+      lang: 'pt',
+      show: true,
+      speaker: true,
+      linkedin: "https://www.linkedin.com/in/carlos-alberto-silva-7622133/",
+    },
+    {
       id: 8,
       name: "Ivo Silva",
       shortBio: "Pixelmatters",
@@ -568,7 +640,41 @@ module.exports = {
       talkSummary: "No desenvolvimento de um produto existe a necessidade de ter diferentes ambientes que se destinam a finalidades distintas. De forma a agilizar este processo, a disponibilização das diferentes versões de uma aplicação pode ser automatizada, utilizando um conjunto de tecnologias de continuous delivery. Esta palestra consiste numa descrição do nosso processo no Finta (uma app mobile direcionada a fãs de futebol: <a href='http://getfinta.pt/'>http://getfinta.pt/</a>) e das ferramentas usadas.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/Homn3_D2kDo",
+    },
+    {
+      id: 25,
+      name: "João Carlos Sousa",
+      shortBio: "Direção-Geral da Educação",
+      company: "Direção-Geral da Educação",
+      role: "Coordenador de equipa",
+      fullBio: "<p>João Carlos Sousa é licenciado em Física pela Faculdade de Ciências da Universidade de Lisboa com especialização em Oceanografia Física e formação pós-graduada em Comunicação Educacional Multimédia. Professor do Ensino Secundário, consultor, formador com várias certificações, investigador na área da Educação, tem desenvolvido a sua carreira profissional na área das tecnologias educativas e da aprendizagem das ciências em ambientes formais e não-formais, apresentando regularmente comunicações em eventos e tendo vários artigos e capítulos de livros publicados. Foi presidente da direção da Associação de Professores de Sintra entre 2009 e 2014, integra os corpos diretivos da Delegação Regional Centro da Sociedade Portuguesa de Física e é membro de associações internacionais dedicadas ao desenvolvimento profissional docente (LTN e EcoMedia Europe). Coordenou equipas de projeto nacionais e integrou vários Steering Committees de projetos Europeus. Em setembro de 2014 foi nomeado Chefe da Equipa de Recursos e Tecnologias Educativas da Direção-Geral da Educação do Ministério da Educação e Ciência, tendo sido nomeado Diretor de Serviços de Projetos Educativos em Janeiro de 2015. Em janeiro de 2018 tornou-se coordenador da Equipa INCoDe.2030-EDU da mesma instituição.</p>",
+      image: "joaocarlossousa.jpg",
+      faqs: [],
+      talkTitle: "Educação 4.0",
+      talkSummary: "",
+      talkDate: "Sábado 24/03 | 16:45 - 18:30 | Auditório FEUP",
+      lang: 'pt',
+      show: true,
+      speaker: true,
+    },
+    {
+      id: 27,
+      name: "Sofia Couto da Rocha",
+      shortBio: "Health Parliament Portugal",
+      company: "Health Parliament Portugal",
+      role: "Deputy & President of the Information Technologies Comission",
+      fullBio: "<p>Médica, interna de Medicina Interna. MBA pelo The Lisbon MBA. Minor em Ciência Política pela NOVA e BA em Design pela LCF/CSM, IWI pelo MIT Boston.</p><p>Fundadora de Startup em HealthTech&Design. Premiada em Biotecnologia, Liderança e Comunicacao Digital, tendo sido o mais recente o Global Impact Challenge da Singularity Umiversity/NASA.</p><p>Fellowships na Bélgica, Brasil, UK e México. Pesquisa sobre sustentabilidade em saúde, impacto solar e clusters de risco, tricologia e onicologia.</p><p>Bolsa de Investigação Clínica da Harvard Medical School. Presidente da Comissão de TI do Health Parliament Portugal e membro do conselho Nacional para as Tecnologias de Informação em Saúde da Ordem dos Médicos.</p>",
+      image: "sofiarocha.jpg",
+      faqs: [],
+      talkTitle: "A ficção científica de ontem",
+      talkSummary: "A Tecnologia encontra o sector da Saúde tanto em integração vertical como horizontal, muda a organização, as melhores practicas, as formas de tratamento, a medição de outcomes, a aquisição e tratamento de dados, a comunicação e a abordagem ao doente/cidadão sem doença. A multidisciplinariedade das equipas e da estratégia transformou no presente os planos futuros nos cuidados e na promoção do bem estar das populações. Seja  com a IA, com blockchain ou noutras formas de replicacao tecnológica são inúmeros os benefícios e os cuidados a pensar. É neste vortex que surge toda a discussão actual. ",
+      talkDate: "Sábado 24/03 | 18:15 - 18:30 | Auditório FEUP",
+      lang: 'pt',
+      show: true,
+      speaker: true,
+      linkedin: "https://www.linkedin.com/in/p-sofia-couto-da-rocha-8655bb28/",
     },
     {
       id: 9,
@@ -585,7 +691,8 @@ module.exports = {
       talkSummary: "Nesta apresentação, vamos introduzir o paradigma da programação funcional usando JavaScript. Tentaremos demonstrar que tratando a computação como a avaliação de funções puras, usando dados imutáveis e preferindo expressões a comandos conseguimos produzir código mais fácil de entender, mais modular e mais fácil de testar.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/yVFHJ-XJV_k",
     },
     {
       id: 10,
@@ -601,7 +708,8 @@ module.exports = {
       talkSummary: "Ever heard of the 4th Industrial revolution or the Industry 4.0? It's not all about the hardware. In fact, most of the hardware is already here, what we are missing is the software that will make this vision a reality. In this talk we are going to talk about the technologies driving the industry to its 4th revolution and about what we are still missing to achieve I4.0. If you want to be prepared for the next big thing in the enterprise world, join us to find more!",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/pWhdUhGZ3j0",
     },
     {
       id: 11,
@@ -618,7 +726,8 @@ module.exports = {
       talkSummary: "With the increasing demand for the continuous connectivity on the move, the way we look at the Internet is changing. Vehicles are now becoming smarter with the increasing number of built-in sensors and high demand for the ability to move data between vehicles and the cloud. The vehicle sets the pinnacle of that transformation, by generating 4 terabytes of data per day and being a key enabler of new mobility-on-demand services that will change the way we live our lives every day. Veniam is building a V2X (vehicle-to-everything) platform that is able to move terabytes of data between vehicles (V2V) and vehicles and the cloud (V2C). Cars can now do more than carrying people and goods from point A to point B and become active nodes of the Internet, a new one, an Internet of Moving Things.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/dhoEIHAr_uI",
     },
     {
       id: 13,
@@ -635,7 +744,8 @@ module.exports = {
       talkSummary: "Nesta palestra o Eduardo vai apresentar a perspectiva de um engenheiro na gestão de carreiras e recrutamento. Em particular vai indicar 3 ferramentas fundamentais a utilizar, salientando dicas e armadilhas dos desafios dos engenheiros informáticos hoje em dia.",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/TFjqk6JNqZc",
     },
     {
       id: 17,
@@ -654,7 +764,8 @@ module.exports = {
       talkDate: "Segunda-feira 26/03 | 11:45 - 12:30 | Auditório FEUP",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/gewA58QubPs",
     },
     {
       id: 19,
@@ -671,7 +782,8 @@ module.exports = {
       talkDate: "Sábado 24/03 | 10:00 - 11:00 | Auditório FEUP",
       show: true,
       speaker: true,
-      lang: "pt"
+      lang: "pt",
+      video: "https://youtube.com/embed/4VP52aWgWsc",
     },
     {
       id: 20,
@@ -697,6 +809,8 @@ module.exports = {
       talkDate: "Segunda-feira 26/03 | 11:00 - 11:45 | Auditório FEUP",
       show: true,
       speaker: true,
+      lang: "pt",
+      video: "https://youtube.com/embed/JcgTsxaP1-Y",
     },
   ],
   talks: [
@@ -746,6 +860,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B107",
       location: "Renato Rodrigues e César Silva",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-web-security-foundations-hands-on-enei-2018-44143101204&sa=D&ust=1521564907148000&usg=AFQjCNEV_qHfgioFO2DQmnhuO_u6fhOO_A",
       faqs: [],
       show: true
     },
@@ -757,6 +872,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B120",
       location: "Frederico Bento e Joana Barão",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-ctf-101-capture-the-flag-enei-2018-44138386101&sa=D&ust=1521564907152000&usg=AFQjCNEYY0rIyUmQ1gm2LqeXzixX81oUWw",
       faqs: [],
       show: true
     },
@@ -771,6 +887,7 @@ module.exports = {
       date: "Sábado 24 de Março | 14:00 - 16:00 | Sala B120",
       location: "Fábio Barbosa e Filipe Carvalho",
       faqs: [],
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-espresso-the-android-way-enei-2018-44162113069&sa=D&ust=1521564907156000&usg=AFQjCNFaMqKbXCZwWUu-Mwnok8FqYs2EIA",
       show: true
     },
     {
@@ -783,17 +900,19 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 10:00 - 12:00 | B116",
       location: "Paulo Patrício e Sandra Simões",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-internet-of-things-da-conceptualizacao-a-criacao-enei-2018-44195926205&sa=D&ust=1521564907143000&usg=AFQjCNFjrr8-ai83QMCtur_Z16HFSMMu2g",
       faqs: [],
       show: true
     },
     {
       id: 8,
-      title: "101 Blockchain",
+      title: "Blockchain 101",
       desc: "<p>Tópicos:<br/>- Blockchain fundamentals<br/>- Mining and incentives<br/>- How it works (tech session)<br/>- Smart contracts and trusted computing<br/>- Lightning networks<br/>- Other DLTs: DAGs<br/>- Industry applications<br/>- Q&A</p>" +
       "<p>Celso Martinho é o CEO e Founder da Bright Pixel, formado na Universidade de Aveiro. Irá desmistificar a buzzword Blockchain, explicando os seus princípios, como funciona o “mining” e qual o seu objetivo, explicará a tecnologia adjacente, os “smart contracts” e outros conceitos associados à tecnologia e as suas aplicações na indústria. Não percas esta oportunidade de perceber a complexa e simples arquitetura da blockchain por trás da Bitcoin e outras cryptocurrencies. Encontra-o no <a href='https://www.linkedin.com/in/celsomartinho/'>LinkedIn</a></p>",
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 10:00 - 12:00",
       location: "Celso Martinho",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-blockchain-101-enei-2018-44303578195&sa=D&ust=1521564907149000&usg=AFQjCNELGwkZOvcEeCE3PecQhIpea36g6Q",
       faqs: [],
       show: true
     },
@@ -806,23 +925,20 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 14:00 - 16:00 | Sala B120",
       location: "André Cruz",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-criacao-de-recursos-3d-para-motores-a-tempo-real-enei-2018-44142748148&sa=D&ust=1521564907151000&usg=AFQjCNF51-3L0VoGoC2-cTv7CIAi0jTuFg",
       faqs: [],
       show: true
     },
     {
       id: 11,
-      title: "Cibersegurança S21sec",
-      desc: "<p>Tópicos:<br/>- Recon (port mapping, DNS recon, etc.)<br/>- Web Application Security<br/>- Mobile Security<br/>- Como participar num bug bounty e reportar uma vulnerabilidade</p>" +
-      "<p>Requisitos:<br/>- Tenha alguma experiência em Linux, e que venha com uma PEN USB com o Kali Linux, que será utilizado durante o workshop<br/>- Trazer portátil.</p>" +
-      "<p>Sobre o Luís Grangeia (lgrangeia@s21sec.com):</p>" +
-      "<p>I’m an information security professional working in the field for about 17 years, mostly doing security audits and pen-tests.</p>" +
-      "<p>I do information security auditing and testing to major portuguese and european companies (retail, banking, insurance, telcos). I sometimes speak about information security at conferences and meetings. Some stuff I did of interest: In 2015 I found and exploited a memory corruption vulnerability on a TomTom GPS sportswatch, bypassing several security measures, including encrypted firmware updates. All without touching a screwdriver; I wrote Cupid, an implementation of the heartbleed attack for wireless networks, implemented as patches for hostapd and wpa_supplicant; I authored a Burp Suite extension to handle and inject inside AES encrypted payloads; I wrote the original paper for DNS Cache Snooping; In another millenium I’ve co-authored a phrack article that, among other things, implemented a covert TCP sniffer inside the Linux kernel.</p>" +
-      "<p>All my recent slide decks are available on slideshare.net. I’m mostly interested in security research, covering the usual topics: Operation System design models (trusted path computing, security models, etc.); Web and Mobile Application security; Low level protocols design and implementation; Debugging & disassembling software & hardware; Mobility and embedded systems, Android/IOS, wearables, IoT; Futurology, new uses for technology, new forms of interaction.</p>",
+      title: "Engenharia Reversa de Aplicações Android",
+      desc: "<p>Tens curiosidade em 'hackear' aplicações android, saber os segredos que cada aplicação esconde? Neste workshop irás aprender a 'reversar' APIs e fazer os teus próprios 'bots'. Esta é uma sessão introdutória ao reverse engineering de aplicações Android onde iremos demonstrar como desempacotar uma aplicação e analisar o seu código.</p><p>Requisitos: Computador Pessoal com Android Studio e Java</p>",
       image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 14:00 - 16:00",
+      date: "Domingo 25 de Março | 14:00 - 16:00 | B107",
       location: "Luís Grangeia",
       faqs: [],
-      show: false
+      show: true,
+      signup_url: "https://www.eventbrite.pt/e/registo-workshop-engenharia-reversa-de-aplicacoes-android-enei-2018-44498111048"
     },
     {
       id: 12,
@@ -836,6 +952,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Segunda-feira 26 de Março | 10:00 - 12:00 | Sala B116",
       location: "João Riqueza, Ernesto Costa e Marcelo Barroso",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-hapi-day-open-architectures-enei-2018-44196159904&sa=D&ust=1521564907147000&usg=AFQjCNEnL32Z9SBBm8jg828fzXFltZ9IWQ",
       faqs: [],
       show: true
     },
@@ -847,6 +964,8 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Segunda-feira 26 de Março | 10:00 - 12:00 | B120",
       location: "<a href=\"/speakers/5\">João Gradim</a> e <a href=\"/speakers/4\">Mário Carneiro</a>",
+
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-introducao-ao-ecossistema-do-arduino-e-a-iot-enei-2018-44142888568&sa=D&ust=1521564907142000&usg=AFQjCNHHQQ2M0c9d8C0TOX5XryrNw6fgCw",
       faqs: [],
       show: true
     },
@@ -861,6 +980,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Sábado 24 de Março | 10:00 - 12:30 | Sala B116",
       location: "Ricardo Faria e Pedro Pires",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-modern-graph-analysis-using-opensource-tools-like-tinkerpop-and-janusgraph-enei-2018-44138659920&sa=D&ust=1521564907145000&usg=AFQjCNHUi6DBFAxzMc9DLwcc3qGjQ2GYcg",
       faqs: [],
       show: true
     },
@@ -870,8 +990,9 @@ module.exports = {
       desc: "<p>Neste workshop, iremos criar alguns ambientes de desenvolvimento com docker e docker-compose, explorando várias arquiteturas e opções de customização possíveis. Iremos explorar as vantagens do docker, e as suas principais limitações.</p>" + 
         "<p>Sobre o Pedro: Licenciado (2015) e Mestre (2017) em Engenharia Informática, na Universidade de Coimbra, comecei recentemente a trabalhar como software developer na Whitesmith. Adotando desde cedo uma mentalidade DevOps, gosto de explorar as ferramentas disponíveis para facilitar esta abordagem, incluindo o uso de Docker para uniformização de ambientes de desenvolvimento.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B120",
+      date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B107",
       location: "Pedro Janeiro",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-introducao-a-docker-enei-2018-44303546099&sa=D&ust=1521564907146000&usg=AFQjCNFXluG-BxQVfttwFEBUJMIMJg7Xzw",
       faqs: [],
       show: true
     },
@@ -885,8 +1006,9 @@ module.exports = {
         "Estás preparado?</p>" +
         "<p>Sobre o Daniel: Estudou no Mestrado em Redes e Sistemas Informáticos na Faculdade de Ciências da Universidade do Porto que terminou em 2016 e trabalha atualmente na Bitmaker onde tem vindo a resolver problemas de elevada complexidade utilizando Elixir. Mantém uma relação próxima com a Universidade onde partilha as suas experiências e conhecimento em workshops e eventos. Os seus principais interesses são linguagens de programação, sistemas distribuídos, DevOps e tudo relacionado com redes de computadores. Podem saber mais no seu <a href=\"https://github.com/DFilipeS\">GitHub</a> ou <a href=\"https://twitter.com/DFilipeS\">Twitter</a>.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado-feira 24 de Março | 16:45 - 18:30 | Sala B120",
+      date: "Sábado 24 de Março | 16:45 - 18:30 | Sala B120",
       location: "Daniel Silva",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-phoenix-framework-enei-2018-44231189679&sa=D&ust=1521564907152000&usg=AFQjCNHguP15TP3NufjpPXn2PZWCw2f9lQ",
       faqs: [],
       show: true
     },
@@ -899,6 +1021,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B116",
       location: "Gonçalo Pereira (IEEE)",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-esp-aplicado-a-iot-enei-2018-44196244156&sa=D&ust=1521564907147000&usg=AFQjCNF0ViS2oB1ySgCLzhk3JnOwc86QIg",
       faqs: [],
       show: true
     },
@@ -910,6 +1033,7 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Segunda-feira 26 de Março | 10:00 - 12:30 | Sala B107",
       location: "Pedro Caramez",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-masterclass-linkedin-enei-2018-44221988157&sa=D&ust=1521564907155000&usg=AFQjCNE9rbSyuYT0nxA-jh3Kjh2pB7Oq5w",
       faqs: [],
       show: true
     },
@@ -920,16 +1044,64 @@ module.exports = {
       image: "/images/Ativo 4.svg",
       date: "Domingo 25 de Março | 10:00 - 12:30",
       location: "Rui Brilha e Egas Bastos (Miniclip)",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-desenvolver-um-jogo-como-um-produto-enei-2018-44143198495&sa=D&ust=1521564907144000&usg=AFQjCNE0Xvoe5kdmFarKhBC2vNOPj4IazQ",
       faqs: [],
       show: true
     },
     {
       id: 20,
       title: "Next Gen Experiences Through Connected Technologies",
-      desc: "<p>Compreender o problema, encontrar uma solução inovadora com a tecnologia no núcleo e os resultados finais;<br/>Desafiar o público para voltar com soluções inovadoras para resolver os problemas comuns do dia a dia através de várias tecnologias conectadas entre si;<br/>Avaliação das soluções pelo painel executivo e discussão aberta para identificar melhorias;</p><p>Exemplos: Tecnologia Conectada: Uso de painéis sensíveis ao toque, Big Data Analytics, Cognitive e Machine Learning para permitir uma melhor compreensão, 3D priniting, que incluirá exemplos de como a Wipro fez isso para clientes em todo o mundo</p>",
+      desc: "<p>Compreender o problema, encontrar uma solução inovadora com a tecnologia no núcleo e os resultados finais;<br/>Desafiar o público para voltar com soluções inovadoras para resolver os problemas comuns do dia a dia através de várias tecnologias conectadas entre si;<br/>Avaliação das soluções pelo painel executivo e discussão aberta para identificar melhorias;</p><p>Exemplos: Tecnologia Conectada: Uso de painéis sensíveis ao toque, Big Data Analytics, Cognitive e Machine Learning para permitir uma melhor compreensão, 3D priniting, que incluirá exemplos de como a Wipro fez isso para clientes em todo o mundo</p>" +
+      "<p>Alexandra Sousa Pinto é Head of Solutions & Innovation na Wipro Technologies.<br/>Mestre em Engenharia de Sistemas e Computadores, Alexandra tem mais de17 anos de experiência em retalho, entre os quais se destacam a participação em grandes projectos de implementação de Oracle Retail em retalhistas de renome mundias.<br/>É também percursora do Desenvolvimento de novas soluções, respectivo alinhamento com necessidades de mercado e complementaridade com a tecnologia de Oracle Retail.</p>" +
+      "<p>Boudhayan Mukherjee é Practice Manager na Wipro Technologies.<br/>Mestre em Engenharia e Ciências de Computadores, Boudhayan tem mais de 14 anos de experiência profissional multidisciplinar nas indústrias de Retalho, Saúde e Seguros.<br/>Profundo conhecimento da indústria de retalho, alavancandoesse background como potencial em projectos de transformação e implementações de Oracle Retail.<br/>É um entusiasta na transformação digital do negócio de retalho.</p>",
       image: "/images/Ativo 4.svg",
-      date: "Sábado 24 de Março | 16:45 - 18:30",
+      date: "Sábado 24 de Março | 16:45 - 18:30 | Sala B116",
       location: "Alexandra Pinto e Boudhayan Mukherjee",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-workshop-next-gen-experiences-through-connected-technologies-enei-2018-44331008239&sa=D&ust=1521564907150000&usg=AFQjCNGMC2ih1YqfRHBSyqSepBkzXKQ-kA",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 21,
+      title: "Presentation Karaoke",
+      desc: "O Presentation Karaoke é uma variação do karaoke tradicional onde, em vez de cantar canções, os participantes irão realizar uma apresentação improvisada com base em fotografias escolhidas pela organização. Haverá um júri que avaliará a performance dos concorrentes e os três melhores terão a possibilidade de repetir a façanha no Auditório Principal de FEUP, numa final que promete bastante diversão e gargalhadas.",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 16:45 - 18:30 | Sala B120",
+      signup_url: "https://www.google.com/url?q=https://www.eventbrite.pt/e/registo-presentation-karaoke-enei-2018-44373795216&sa=D&ust=1521566223030000&usg=AFQjCNF7We3oz7859tlMp7P8anTHJKTFKA",
+      location: "",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 22,
+      title: "Rally das Tascas",
+      desc: "<p>No dia 24 de março com início previsto para às 22 horas, o Rally das Tascas vai dar-te a conhecer alguns locais da baixa do Porto e pelo caminho vais somando bebidas. Por apenas 30€/equipa tens a oportunidade de participar neste mítico evento, já habitual no ENEI.<br/>E para melhorar isto tudo, após o término do percurso acaba a tua noite na festa de Erasmus da discoteca Villa Porto!</p><p>Não percas esta oportunidade!</p><p>Aconselhamos a leitura do regulamento, disponível <a href=\"/misc/Regulamento Rally das Tascas.pdf\">aqui</a>.</p>",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 21:00 - 00:00",
+      location: "",
+      signup_url: "https://www.eventbrite.pt/e/registo-rally-das-tascas-enei-2018-44372883489",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 23,
+      title: "Quiz by Whitesmith",
+      desc: "",
+      image: "/images/Ativo 4.svg",
+      date: "Domingo 25 de Março | 18:30 - 19:30",
+      location: "",
+      signup_url: "",
+      faqs: [],
+      show: true
+    },
+    {
+      id: 24,
+      title: "Peddy Paper",
+      desc: "Descobre os QR Codes do ENEI espalhados pelo porto e habilita-te a ganhar prémios gratuitos! Descarrega a app Android do ENEI <a href='https://enei.pt/android'>aqui</a> para poderes participar no jogo!<br/>Consulta o regulamento do Peddy Paper <a href='/misc/peddypaper.pdf'>aqui</a>.",
+      image: "/images/Ativo 4.svg",
+      date: "Sábado 24 de Março | 21:00 - 00:00",
+      location: "",
+      signup_url: "https://enei18peddypaper.eventbrite.pt",
       faqs: [],
       show: true
     }

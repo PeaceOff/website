@@ -62,6 +62,9 @@ app.use('/workshops', workshops);
 app.use('/talks', talks);
 app.use('/slack', slack);
 app.use('/s3cr3t', secret);
+app.use('/survival-guide', require('./routes/survival-guide'));
+app.use('/schedulepdf', require('./routes/schedulepdf'));
+app.use('/candidaturas', require('./routes/candidaturas'));
 
 // register path to partials
 hbs.registerPartials(__dirname + '/views/partials');
